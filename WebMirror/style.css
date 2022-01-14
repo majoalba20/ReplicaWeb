@@ -44,6 +44,7 @@ a:hover{
 }
 
 .bi{
+    cursor: pointer;
     background-color: #2937f0;
     padding: 5px 15px 5px 15px;
     border-radius: 50px;
@@ -130,4 +131,44 @@ video{
     margin-left:  470px;
     margin-top: -300px;
 }
+
+.page-2{
+    margin-top: 140px;
+    width: 100%;
+    height: 550px;
+    background-image: url(./media/code.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.page-2 h1{
+    font-family: Newsreader;
+    width: 49%;
+    color: #ffffff;
+    line-height: 80px;
+    font-size: 80px;
+}
+
+.page-2 .text-1{
+    padding-top: 120px;
+    padding-left: 175px;
+}
+
+.page-2 .text-2{
+    padding-left: 175px;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50px;
+    color: #f5f6f7;
+    font-family: Mulish;
+    padding: 18.5px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #d8d8d7;
+    margin: 24px 0 0 187px;
+}
+
 
