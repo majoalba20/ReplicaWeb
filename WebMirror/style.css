@@ -9,7 +9,7 @@ body{
 header{
     font-family: Kanit;
     width: 100%;
-    height: 68px;
+    height: 11vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,7 +23,7 @@ header{
 p{
     color: #191919;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 nav{
@@ -32,11 +32,20 @@ nav{
     list-style: none;
 }
 
+.new_menu{
+    color: #2937f0 !important;
+    margin-right: 2.5vw;
+    font-size: 1rem;
+}
+
 a{
-    margin-right: 40px;
-    color: #2e3236;
-    font-size: 16px;
     text-decoration: none;
+}
+
+.anav{
+    margin-right: 2.5vw;
+    color: #2e3236;
+    font-size: 1rem;
 }
 
 a:hover{
@@ -57,46 +66,48 @@ a:hover{
 
 article{
     display: flex;
+    margin-bottom: 22.5vh;
 }
 
 .text-page1{
-    margin: 134px 0 0 180px;
+    margin: 21.89vh 0 0 14.5vw;
     width: 37.5%;
 }
 
 .text-page1 h1{
     color: #212529;
     font-family: Newsreader;
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 5rem;
+    line-height: 13vh;
 }
 
 .text-page1 p{
-    margin-top: 15px;
-    line-height: 30px;
+    width: 35vw;
+    margin-top: 2.4vh;
+    line-height: 4.8vh;
     color: #6c757d;
     font-family: Mulish;
     font-weight: light;
 }
 
 .phone-desing img{
-    margin: 92px 0 0 160px;
-    width: 240px;
+    margin: 14.8vh 0 0 11.7vw;
+    width: 17.60vw;
     position: absolute;
     z-index: 1;
 }
 
-video{
-    width: 210px;
+.phone-desing video{
+    width: 15.3vw;
     position: absolute;
     z-index: -1;
-    margin: 100px 0 0 175px;
+    margin: 16.8vh 0 0 13vw;
 }
 
 .phone-desing .circle{
-    margin: 147px 0 0 90px;
-    width: 365px;
-    height: 365px;
+    margin: 25vh 0 0 6.9vw;
+    width: 27.3vw;
+    height: 60vh;
     position: absolute;
     z-index: -2;
     border-radius: 50%;
@@ -105,37 +116,35 @@ video{
 }
 
 .cross1{
+    margin: 79vh 0 0 6.2vw;
     background-color: #2937f0;
-    border-radius: 50px;
     transform: rotate(35deg);
-    margin: 490px 0 0 80px;
-    width: 20px;
-    height: 6px;
+    border-radius: 50px;
+    width: 1.5vw;
+    height: 1vh;
 }
 
 .cross2{
+    margin: -1vh 0 0 6.2vw;
     background-color: #2937f0;
     border-radius: 50px;
     transform: rotate(-55deg);
-    margin: -6px;
-    margin-left: 80px;
-    width: 20px;
-    height: 6px;
+    width: 1.5vw;
+    height: 1vh;
 }
 
 .lit-cir{
-    background-color: #2937f0;
     border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    margin-left:  470px;
-    margin-top: -300px;
+    background-color: #2937f0;
+    width: 0.88vw;
+    height: 1.93vh;
+    margin: -53.2vh 0 0 34.7vw;
 }
 
 .page-2{
-    margin-top: 140px;
     width: 100%;
-    height: 550px;
+    scroll-margin-top: 10.7vh;
+    height: 89.24vh;
     background-image: url(./media/code.jpg);
     background-size: cover;
     background-position: center;
@@ -145,17 +154,18 @@ video{
     font-family: Newsreader;
     width: 49%;
     color: #ffffff;
-    line-height: 80px;
-    font-size: 80px;
+    line-height: 12.95vh;
+    font-size: 5.1rem;
 }
 
 .page-2 .text-1{
-    padding-top: 120px;
-    padding-left: 175px;
+    padding-top: 19.7vh;
+    padding-left: 14.5vw;
 }
 
 .page-2 .text-2{
-    padding-left: 175px;
+    padding-left: 14.5vw;
+    margin-bottom: 7.2vh;
 }
 
 .btn{
@@ -164,11 +174,136 @@ video{
     border-radius: 50px;
     color: #f5f6f7;
     font-family: Mulish;
-    padding: 18.5px;
+    padding: 1.395vw;
     font-weight: bold;
-    font-size: 15px;
-    border: 1px solid #d8d8d7;
-    margin: 24px 0 0 187px;
+    font-size: 0.9rem;
+    border: 1.7px solid #d8d8d7;
+    margin-left: 13.95vw;
 }
+
+.btn:hover{
+    color: #f5f6f7;
+}
+
+.page-3{
+    height: 89.24vh;
+    scroll-margin-top: 11vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-desing2{
+    width: 44.2%;
+}
+
+.phone-desing2 img{
+    margin: 4.97vh 0 0 19.2vw;
+    width: 17.60vw;
+    position: absolute;
+    z-index: 1;
+}
+
+.circle2{
+    margin: 25vh 0 0 13vw;
+    width: 17.7vw;
+    height: 36vh;
+    position: absolute;
+    z-index: -2;
+    border-radius: 50%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,42,234,1) 0%, rgba(158,26,226,1) 100%);
+}
+
+.phone-desing2 video{
+    margin: 6.68vh 0 0 20.4vw;
+    width: 15.3vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.cross1-2{
+    margin: 10vh 0 0 39.2vw;
+    background-color: #2937f0;
+    transform: rotate(55deg);
+    border-radius: 50px;
+    width: 1.5vw;
+    height: 1vh;
+}
+
+.cross2-2{
+    margin: -1vh 0 0 39.2vw;
+    background-color: #2937f0;
+    transform: rotate(-35deg);
+    border-radius: 50px;
+    width: 1.5vw;
+    height: 1vh;
+}
+
+.lit-cir2{
+    border-radius: 50%;
+    background-color: #2937f0;
+    width: 0.88vw;
+    height: 1.93vh;
+    margin: 55.5vh 0 0 15.8vw;
+}
+
+.grid{
+    width: 55.8%;
+    display: grid;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+    column-gap: 3.8vw;
+}
+
+.sub-grid h2{
+    margin-top: 5.1vh;
+    line-height: 5.5vh;
+    color: #212529;
+    font-family: Kanit;
+    font-size: 4.3vh;
+}
+
+.sub-grid p{
+    padding-top: 1.39vh;
+    line-height: 3.9vh;
+    color: #7b838a;
+    font-family: Mulish;
+    font-size: 2.5vh;
+}
+
+.bi-phone, .bi-window, .bi-briefcase, .bi-patch-check{
+    display: flex;
+    justify-content: center;
+    font-size: 10.4vh;
+    padding-top: 2.4vh;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(0deg, rgba(69,49,236,1) 0%, rgba(127,33,229,1) 100%);
+}
+
+footer{
+    background-color: #000000;
+    text-align: center;
+    width: 100%;
+    height: 22.7vh;
+    font-family: Mulish;
+    color: #717171;
+    font-size: 2.2vh;
+}
+
+footer p{
+    padding-top: 7.8vh;
+    color: #717171;
+    font-size: 2.2vh;
+}
+
+footer h4{
+    padding-top: 2vh;
+    padding-left: 41.2vw;
+    font-size: 2.2vh;
+    width: 17vw;
+}
+
 
 
